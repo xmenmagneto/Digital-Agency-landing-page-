@@ -4,7 +4,7 @@ var ejs = require('ejs');
 var engine = require('ejs-mate');
 
 
-app.use(express.static(__dirname + '/public'));h
+app.use(express.static(__dirname + '/public'));
 
 app.engine('ejs', engine);
 app.set('view engine', 'ejs');
